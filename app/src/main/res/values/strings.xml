@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EasyCalls</string>
+    <string name="nameerror">Enter name</string>
+    <string name="invalid_password">invalid_password</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="tracking">Tracking &#x2713;</string>
+    <string name="not_tracking">Not tracking &#x2718;</string>
+    <string name="connecting">Connecting &#8230;</string>
+    <string name="status">status</string>
+</resources>

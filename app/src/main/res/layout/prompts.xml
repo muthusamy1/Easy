@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#A36363"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:paddingBottom="20dp"
+        android:text="Enter  Details Client "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:textSize="14sp"
+        android:id="@+id/name"
+        android:drawablePadding="10dp"
+        android:singleLine="true"
+
+        android:inputType="text"
+        android:backgroundTint="@color/white"
+        android:hint="Name"
+        android:textCursorDrawable="@null"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        android:textColorHighlight="#ffff"/>
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:textSize="14sp"
+
+        android:drawablePadding="10dp"
+        android:singleLine="true"
+
+        android:inputType="number"
+        android:backgroundTint="@color/white"
+        android:hint="Phone"
+        android:textCursorDrawable="@null"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        android:textColorHighlight="#ffff"/>
+
+    <EditText
+        android:id="@+id/accno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:textSize="14sp"
+
+        android:drawablePadding="10dp"
+        android:singleLine="true"
+
+        android:inputType="text"
+        android:backgroundTint="@color/white"
+        android:hint="Account Number"
+        android:textCursorDrawable="@null"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        android:textColorHighlight="#ffff"/>
+    <EditText
+              android:id="@+id/Address"
+               android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:textSize="14sp"
+        android:drawablePadding="10dp"
+        android:singleLine="true"
+        android:inputType="text"
+        android:backgroundTint="@color/white"
+        android:hint="Address"
+        android:textCursorDrawable="@null"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        android:textColorHighlight="#ffff"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Submit"
+            android:id="@+id/submit"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="canel"
+            android:id="@+id/cencel"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
